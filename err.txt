@@ -1,0 +1,56 @@
+﻿Analyzing mirror_365...                                         
+
+warning - Unused import: '../../data/models/models.dart' - lib\core\services\daily_check_in_service.dart:2:8 - unused_import
+warning - The value of the field '_journeyRepo' isn't used - lib\features\dashboard\bloc\dashboard_bloc.dart:13:31 - unused_field
+warning - The value of the field '_keyLastAppOpen' isn't used - lib\features\dashboard\bloc\dashboard_bloc.dart:21:23 - unused_field
+  error - Undefined class 'DailyCheckInService' - lib\features\dashboard\bloc\dashboard_bloc.dart:24:9 - undefined_class
+  error - Undefined class 'DailyCheckInService' - lib\features\dashboard\bloc\dashboard_bloc.dart:34:14 - undefined_class
+   info - Use 'const' with the constructor to improve performance - lib\features\dashboard\pages\dashboard_page.dart:86:13 - prefer_const_constructors
+   info - Use 'const' literals as arguments to constructors of '@immutable' classes - lib\features\dashboard\pages\dashboard_page.dart:87:19 - prefer_const_literals_to_create_immutables
+   info - Use 'const' with the constructor to improve performance - lib\features\dashboard\pages\dashboard_page.dart:89:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\dashboard\pages\dashboard_page.dart:92:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\dashboard\pages\dashboard_page.dart:95:11 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\dashboard\pages\dashboard_page.dart:98:11 - prefer_const_constructors
+  error - The method 'getAllEntriesForGoal' isn't defined for the type 'GoalEntryRepository' - lib\features\goals\bloc\goals_bloc.dart:44:36 - undefined_method
+  error - The argument type 'JourneyGoalModel' can't be assigned to the parameter type 'GoalModel'.  - lib\features\goals\bloc\goals_bloc.dart:116:17 - argument_type_not_assignable
+  error - Undefined class 'GoalCategory' - lib\features\goals\pages\goals_page.dart:51:11 - undefined_class
+  error - Undefined name 'GoalCategory' - lib\features\goals\pages\goals_page.dart:54:15 - undefined_identifier
+  error - Undefined name 'GoalCategory' - lib\features\goals\pages\goals_page.dart:57:15 - undefined_identifier
+  error - Undefined name 'GoalCategory' - lib\features\goals\pages\goals_page.dart:61:15 - undefined_identifier
+  error - Undefined name 'GoalCategory' - lib\features\goals\pages\goals_page.dart:116:63 - undefined_identifier
+  error - Undefined name 'GoalCategory' - lib\features\goals\pages\goals_page.dart:117:65 - undefined_identifier
+  error - Undefined name 'GoalCategory' - lib\features\goals\pages\goals_page.dart:118:64 - undefined_identifier
+  error - Undefined class 'GoalCategory' - lib\features\goals\pages\goals_page.dart:129:9 - undefined_class
+warning - Unused import: 'package:flutter_bloc/flutter_bloc.dart' - lib\features\goals\widgets\add_goal_bottom_sheet.dart:2:8 - unused_import
+  error - The getter 'addedOnDay' isn't defined for the type 'GoalModel' - lib\features\goals\widgets\goal_card.dart:41:34 - undefined_getter
+  error - The getter 'targetValue' isn't defined for the type 'GoalModel' - lib\features\goals\widgets\goal_card.dart:52:23 - undefined_getter
+  error - The type 'GoalCategory' isn't exhaustively matched by the switch cases since it doesn't match the pattern 'GoalCategory.health' - lib\features\goals\widgets\goal_card.dart:72:5 - non_exhaustive_switch_statement
+warning - The matched value type 'GoalCategory (where GoalCategory is defined in C:\Users\muham\Desktop\mirror_365\lib\core\enums\app_enums.dart)' can never be equal to this constant of type 'GoalCategory (where GoalCategory is defined in C:\Users\muham\Desktop\mirror_365\lib\data\models\journey_goal_model.dart)' - lib\features\goals\widgets\goal_card.dart:73:12 - constant_pattern_never_matches_value_type
+warning - The matched value type 'GoalCategory (where GoalCategory is defined in C:\Users\muham\Desktop\mirror_365\lib\core\enums\app_enums.dart)' can never be equal to this constant of type 'GoalCategory (where GoalCategory is defined in C:\Users\muham\Desktop\mirror_365\lib\data\models\journey_goal_model.dart)' - lib\features\goals\widgets\goal_card.dart:75:12 - constant_pattern_never_matches_value_type
+warning - The matched value type 'GoalCategory (where GoalCategory is defined in C:\Users\muham\Desktop\mirror_365\lib\core\enums\app_enums.dart)' can never be equal to this constant of type 'GoalCategory (where GoalCategory is defined in C:\Users\muham\Desktop\mirror_365\lib\data\models\journey_goal_model.dart)' - lib\features\goals\widgets\goal_card.dart:77:12 - constant_pattern_never_matches_value_type
+   info - Use 'const' with the constructor to improve performance - lib\features\mirror\screens\monthly_confession_screen.dart:112:33 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\mirror\screens\monthly_confession_screen.dart:117:31 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\mirror\screens\monthly_confession_screen.dart:160:12 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\mirror\screens\monthly_confession_screen.dart:161:14 - prefer_const_constructors
+
+flutter : 32 issues 
+found. (ran in 107.5s)
+At line:1 char:1
++ flutter analyze 
+--no-color 2>&1 | 
+Out-File -FilePath 
+err.txt -Encodin ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : 
+NotSpecified    : (32 
+issues found.     
+(ran in 107.5s):St    
+ring) [], RemoteExc   
+ eption
+    + 
+FullyQualifiedErr    
+orId : NativeComman   
+ dError
+ 

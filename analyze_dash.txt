@@ -1,0 +1,44 @@
+﻿Analyzing mirror_365...                                         
+
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\bloc\dashboard_bloc.dart:53:35 - undefined_getter
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\bloc\dashboard_bloc.dart:58:44 - undefined_getter
+warning - The value of the local variable 'record' isn't used - lib\features\dashboard\bloc\dashboard_bloc.dart:89:17 - unused_local_variable
+  error - The method 'getCurrentLevel' isn't defined for the type 'LevelRepository' - lib\features\dashboard\bloc\dashboard_bloc.dart:130:39 - undefined_method
+  error - The argument type 'String?' can't be assigned to the parameter type 'String'.  - lib\features\dashboard\bloc\dashboard_bloc.dart:187:47 - argument_type_not_assignable
+   info - Use 'const' for final variables initialized to a constant value - lib\features\dashboard\bloc\dashboard_bloc.dart:218:7 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value - lib\features\dashboard\bloc\dashboard_bloc.dart:219:7 - prefer_const_declarations
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\bloc\dashboard_bloc.dart:266:44 - undefined_getter
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\bloc\dashboard_bloc.dart:318:44 - undefined_getter
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\screens\dashboard_screen.dart:34:48 - undefined_getter
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\screens\mirror_screen.dart:57:48 - undefined_getter
+  error - The getter 'levelNumber' isn't defined for the type 'LevelModel' - lib\features\dashboard\screens\mirror_screen.dart:93:52 - undefined_getter
+  error - The getter 'name' isn't defined for the type 'LevelModel' - lib\features\dashboard\screens\mirror_screen.dart:93:89 - undefined_getter
+  error - The getter 'currentJourneyDay' isn't defined for the type 'JourneySnapshot' - lib\features\dashboard\screens\reason_vault_overlay.dart:25:58 - undefined_getter
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\features\dashboard\screens\reason_vault_overlay.dart:30:9 - use_build_context_synchronously
+   info - Use 'const' for final variables initialized to a constant value - lib\features\dashboard\widgets\dedication_ring.dart:63:5 - prefer_const_declarations
+   info - Use 'const' for final variables initialized to a constant value - lib\features\onboarding\bloc\onboarding_bloc.dart:41:5 - prefer_const_declarations
+warning - Unused import: '../../../data/models/journey_goal_model.dart' - lib\features\onboarding\bloc\onboarding_state.dart:2:8 - unused_import
+   info - Use 'const' with the constructor to improve performance - lib\features\onboarding\screens\daily_goal_setup_screen.dart:153:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\onboarding\screens\daily_goal_setup_screen.dart:217:16 - prefer_const_constructors
+
+flutter : 20 issues 
+found. (ran in 97.6s)
+At line:1 char:1
++ flutter analyze 
+--no-color 2>&1 | 
+Out-File -FilePath 
+analyze_dash.txt ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : 
+NotSpecified: (2    0 
+issues found. (ran    
+ in 97.6s):String) 
+[],     
+RemoteException
+    + 
+FullyQualifiedError   
+ Id : 
+NativeCommandErr    or
+ 

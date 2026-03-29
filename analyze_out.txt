@@ -1,0 +1,33 @@
+﻿Analyzing mirror_365...                                         
+
+   info - Use 'const' for final variables initialized to a constant value - lib\features\onboarding\bloc\onboarding_bloc.dart:41:5 - prefer_const_declarations
+   info - The local variable '_update' starts with an underscore - lib\features\onboarding\bloc\onboarding_bloc.dart:90:21 - no_leading_underscores_for_local_identifiers
+  error - Undefined class 'GoalCategory' - lib\features\onboarding\bloc\onboarding_event.dart:29:9 - undefined_class
+  error - Undefined class 'GoalCategory' - lib\features\onboarding\bloc\onboarding_event.dart:36:9 - undefined_class
+  error - Target of URI doesn't exist: '../../data/models/journey_goal_model.dart' - lib\features\onboarding\bloc\onboarding_state.dart:2:8 - uri_does_not_exist
+   info - Use 'const' with the constructor to improve performance - lib\features\onboarding\screens\daily_goal_setup_screen.dart:153:38 - prefer_const_constructors
+   info - Use 'const' with the constructor to improve performance - lib\features\onboarding\screens\daily_goal_setup_screen.dart:217:16 - prefer_const_constructors
+warning - Unused import: '../../../data/models/journey_goal_model.dart' - lib\features\onboarding\screens\final_confirmation_screen.dart:7:8 - unused_import
+   info - Unnecessary braces in a string interpolation - lib\features\onboarding\screens\goal_setup_screen.dart:148:50 - unnecessary_brace_in_string_interps
+   info - Use 'const' with the constructor to improve performance - lib\features\onboarding\screens\goal_setup_screen.dart:219:16 - prefer_const_constructors
+
+flutter : 10 issues 
+found. (ran in 4.8s)
+At line:1 char:1
++ flutter analyze 
+--no-color 2>&1 | 
+Out-File -FilePath 
+analyze_out.txt  ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo    
+          : 
+NotSpecified: (1    0 
+issues found. (ran    
+ in 4.8s):String) [], 
+    RemoteException
+    + 
+FullyQualifiedError   
+ Id : 
+NativeCommandErr    or
+ 
